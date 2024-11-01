@@ -1,5 +1,6 @@
 ---
 import Footer from "@/components/Footer.astro";
+import ReadyToStart from "@/components/ReadyToStart.astro";
 
 interface Props {
   title: string;
@@ -30,6 +31,7 @@ const {title, description = "PayAPI Website"} = Astro.props;
     class="m-0 box-border max-h-screen max-w-screen-2xl bg-[#edf3f8] p-0 text-inherit antialiased"
   >
     <slot />
+    <ReadyToStart />
     <Footer />
   </body>
 </html>

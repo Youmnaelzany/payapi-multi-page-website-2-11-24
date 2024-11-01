@@ -9,6 +9,7 @@ export default {
 			"Mirage-Blue": '#1B262F',
 			"Charm-Pink": '#DA6D97',
 			"Light-San-Juan-Blue": '#6C8294',
+			"White-Smoke": '#FBFCFE',
 		},
 		extend: {
 			fontFamily: {
